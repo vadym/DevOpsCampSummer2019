@@ -1,22 +1,7 @@
 #!/usr/bin/env python3
-"""
-ROCK PAPER SCISSORS
-
-Program should ask the user for the input either (ROCK, PAPER, SCISSORS)
-and compare it to computer generated (ROCK, PAPER, SCISSORS), print out the output
-
-For that I need a random generated number, list of things that I'm gonna associate with random numbers.
-User input
-Comparing logic
-Failing cases
-Make it continuous
-
-"""
 import random
 
 listofthings = ['Rock', 'Paper', 'Scissors']
-#answerlist = ['yes', 'no', 'y', 'n']
-#alreadyplayed = 0
 
 def rockpaperscissors():
     askuser = input("Choose your destiny Rock, Paper or Scissors: ")
@@ -79,65 +64,4 @@ while True:
     else:
         print("lul")
         break
-
-
-#while True:
-#    alreadyplayed += 1
-#    rockpaperscissors()
-#    askcont = input("Wanna play again Y/N: ")
-#    if askcont.lower() not in ('yes', 'y', 'no', 'n'):
-#        #checku()
-#        if askcont.lower() == "no" or askcont.lower() == "n":
-#            print("Exiting...")
-#            break
-#        elif askcont.lower() == "yes" or askcont.lower() == "y":
-#            rockpaperscissors()
-#            continue
-#        else:
-#            print("zulul")
-#            break
-#    elif askcont.lower() == "yes" or askcont.lower() == "y":
-#        continue
-#    elif askcont.lower() == "no" or askcont.lower() == "n":
-#        break
-#    else:
-#        print("lul")
-#        break
-
-#def checku():
-#    while True:
-#        askcont = input("Wrong input, try again, Y/N: ")
-#        if askcont.lower() == "no" or askcont.lower() == "n":
-#            print("Exiting...")
-#            break
-#        elif askcont.lower() == "yes" or askcont.lower() == "y":
-#            rockpaperscissors()
-#            break
-#        else:
-#            print("zulul")
-#            break
-
-#def contin(askcont):
-#   if askcont.lower() == "yes" or askcont.lower() == "y":
-#       rockpaperscissors()
-#   elif askcont.lower() == "no" or askcont.lower() == "n":
-#       print("Exiting...")
-#   else:
-#       print("Something went terribly wrong")
-
-
-#while True:
-#    rockpaperscissors()
-#    askcont = input("Wanna play again Y/N: ")
-#    if askcont.lower() in ('yes', 'y', 'no', 'n'):
-#        checku()
-#        continue
-#    elif askcont.lower() == "yes" or askcont.lower() == "y":
-#        rockpaperscissors()
-#    elif askcont.lower() == "no" or askcont.lower() == "n":
-#        break
-#    else:
-#        print("Something went terribly wrong")
-#        break
-         
 
