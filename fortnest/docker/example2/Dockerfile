@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y maven git
 ENV CLONE_DIR="/root/" \
     COMPILE_DIR="/root/java-WebServer/"
 
-WORKDIR $CLONE_DIR
+WORKDIR ${CLONE_DIR}
 RUN git clone https://github.com/dasanjos/java-WebServer.git
 
 WORKDIR ${COMPILE_DIR}
